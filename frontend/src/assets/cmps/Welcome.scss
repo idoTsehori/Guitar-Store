@@ -1,0 +1,10 @@
+.welcome-container {
+  text-align: center;
+  // margin: auto;
+  margin-block-start: 2em;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: max-content;
+  color: $clr-3;
+  background-color: rgba(159, 169, 167, 0.5);
+}

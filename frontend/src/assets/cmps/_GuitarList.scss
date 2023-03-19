@@ -1,0 +1,19 @@
+.guitar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 0.3em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.add-guitar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.add-guitar-container .add-btn {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

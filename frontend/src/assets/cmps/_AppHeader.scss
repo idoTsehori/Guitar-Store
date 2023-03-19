@@ -1,0 +1,49 @@
+.header {
+  background-color: $clr-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 8vh;
+    gap: 2em;
+    a:hover {
+      scale: 1.1;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      height: 100%;
+      transition: 0.3s;
+      color: $clr-3;
+    }
+  }
+  .title {
+    margin: 0;
+    font-size: 0.5em;
+  }
+}
+
+.el-menu-demo {
+  justify-content: space-around;
+  background-color: $clr-1;
+  color: $clr-4;
+
+  a {
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover {
+    scale: 1.3;
+  }
+}
+
+.el-menu-demo .title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1.5em;
+  // color: $clr-2;
+}

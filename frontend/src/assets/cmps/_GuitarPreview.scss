@@ -1,0 +1,66 @@
+.guitar-list .guitar {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  grid-auto-flow: row;
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  max-width: 100%;
+  // width: 100%;
+  padding: 0.8em;
+  margin: auto;
+  margin: 0.5em;
+  overflow: hidden;
+}
+
+.guitar-list .guitar h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.guitar-list .guitar h2 {
+  margin: 0;
+}
+
+.guitar-list .guitar .action-btns {
+  display: flex;
+  gap: 1em;
+  justify-content: space-around;
+}
+
+.guitar-list .guitar .action-btns button {
+  background-color: $clr-3;
+  border: none;
+  border-radius: 15px;
+  color: rgb(48, 53, 57);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.guitar-list .guitar .action-btns button:hover {
+  background-color: darken($clr-3, 10%);
+}
+
+.guitar-list .guitar-img {
+  // width: 100px;
+  // height: 100px;
+  max-height: 150px;
+  max-width: 200px;
+  // min-width: 50px;
+}
+
+.guitar .delete-guitar {
+  position: absolute;
+  border: none;
+  background-color: white;
+  color: rgb(179, 36, 36);
+  font-weight: bold;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  scale: 1.1;
+  cursor: pointer;
+}

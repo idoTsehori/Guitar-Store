@@ -1,0 +1,17 @@
+.guitar-edit form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: max-content;
+  padding: 1em;
+  margin: auto;
+  margin-top: 2em;
+  background-color: lighten($clr-1, 5%);
+}
+
+.guitar-edit button {
+  width: 50%;
+  margin: auto;
+}

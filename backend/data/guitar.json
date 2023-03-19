@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Gibson",
+    "price": 175,
+    "labels": ["electric", "rock", "metal"],
+    "createdAt": 1647377657896,
+    "inStock": true,
+    "img": "imgs/Gibson.jpg"
+  },
+  {
+    "name": "Fender",
+    "price": 100,
+    "labels": ["electric", "blues", "jazz"],
+    "createdAt": 1647377657896,
+    "inStock": false,
+    "img": "imgs/Fender.jpg"
+  },
+  {
+    "name": "Taylor",
+    "price": 150,
+    "labels": ["acoustic", "folk", "country"],
+    "createdAt": 1647377657896,
+    "inStock": true,
+    "img": "imgs/Taylor.jpg"
+  },
+  {
+    "name": "Martin",
+    "price": 120,
+    "labels": ["acoustic", "bluegrass", "country"],
+    "createdAt": 1647377657896,
+    "inStock": true,
+    "img": "imgs/Martin.jpg"
+  },
+  {
+    "name": "PRS",
+    "price": 200,
+    "labels": ["electric", "rock", "metal"],
+    "createdAt": 1647377657896,
+    "inStock": false,
+    "img": "imgs/PRS.jpg"
+  },
+  {
+    "name": "Gretsch",
+    "price": 90,
+    "labels": ["electric", "jazz", "blues"],
+    "createdAt": 1647377657896,
+    "inStock": true,
+    "img": "imgs/gretsch.jpg"
+  },
+  {
+    "name": "Ibanez",
+    "price": 130,
+    "labels": ["electric", "metal", "shred"],
+    "createdAt": 1647377657896,
+    "inStock": true,
+    "img": "imgs/Ibanez.jpg"
+  },
+  {
+    "name": "Yamaha",
+    "price": 70,
+    "labels": ["acoustic", "classical", "folk"],
+    "createdAt": 1647377657896,
+    "inStock": false,
+    "img": "imgs/Yamaha.jpg"
+  },
+  {
+    "name": "Epiphone",
+    "price": 85,
+    "labels": ["electric", "rock", "blues"],
+    "createdAt": 1647377657896,
+    "inStock": true,
+    "img": "imgs/Epiphone.jpg"
+  }
+]
