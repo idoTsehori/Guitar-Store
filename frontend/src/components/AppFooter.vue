@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <small>CoffeeRight Ido Tsehori 2023</small>
+    <small>CooffeeRight Ido Tsehori 2023</small>
   </footer>
 </template>
 
